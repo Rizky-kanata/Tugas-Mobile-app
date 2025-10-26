@@ -10,4 +10,5 @@ COPY . .
 
 EXPOSE 8081 19000 19001 19002 19006 
 
-CMD ["npx", "expo", "start", "--lan", "--host", "0.0.0.0"]
+CMD ["npx", "expo", "start", "--lan"]
+
