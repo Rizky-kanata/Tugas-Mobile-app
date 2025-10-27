@@ -13,9 +13,9 @@
     "react-native": "0.72.10",
     "glob": "8.1.0",
     "@react-native-async-storage/async-storage": "1.18.2",
-    "react-dom": "18.2.0",              // Tambah
-    "react-native-web": "~0.19.6",     // Tambah
-    "@expo/metro-runtime": "~3.1.1"    // Tambah
+    "react-dom": "18.2.0",              
+    "react-native-web": "~0.19.6",   
+    "@expo/metro-runtime": "~3.1.1"   
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
