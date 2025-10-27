@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start --lan"
+    "start": "expo start --lan",
+    "web": "expo start --web"
   },
   "dependencies": {
     "expo": "~49.0.0",
@@ -11,7 +12,10 @@
     "react": "18.2.0",
     "react-native": "0.72.10",
     "glob": "8.1.0",
-    "@react-native-async-storage/async-storage": "1.18.2"
+    "@react-native-async-storage/async-storage": "1.18.2",
+    "react-dom": "18.2.0",              // Tambah
+    "react-native-web": "~0.19.6",     // Tambah
+    "@expo/metro-runtime": "~3.1.1"    // Tambah
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
